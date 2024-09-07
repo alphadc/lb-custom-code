@@ -1,0 +1,41 @@
+body.error404 .page-404 .content-page-404 a {
+	background: #224229;
+}
+body.error404 .page-404 .content-page-404 .title-error,
+body.error404 .page-404 .content-page-404 .sub-title,
+body.error404 .page-404 .sub-error {
+	color: #224229;
+}
+/* Recently Viewed */
+#page #primary .irone-recently-viewed-products {}
+#page #primary .irone-recently-viewed-products li {
+		list-style: none;
+		float: left;
+		width: 15%;
+		margin-right: 15px;
+}
+
+h2.irone-recently-viewed-products-title {
+		color: #224229;
+		font-size: 30px;
+		font-weight: 700;
+	margin-bottom: 20px;
+} 
+
+.irone-recently-viewed-products li h5 {
+		margin-top: 5px;
+}
+
+@media (max-width: 821px) {
+		.irone-recently-viewed-products li {
+				margin-right: 10px;
+		}
+}
+
+@media (max-width: 431px) {
+		.irone-recently-viewed-products li {
+				margin-right: 5px;
+				width: 30%;
+				min-height: 200px;
+		}
+}
